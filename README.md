@@ -61,23 +61,3 @@ for Laravel 5.1+
         'Timezones' => Jomar\Timezones\Facades\Timezones::class,
     ]
 ```
-
-## Configuration
-
-To use your own settings, publish config.
-
-```$ php artisan vendor:publish```
-
-`config/captcha.php`
-
-```php
-return [
-    'default'   => [
-        'length'    => 5,
-        'width'     => 120,
-        'height'    => 36,
-        'quality'   => 90,
-    ],
-    // ...
-];
-```
