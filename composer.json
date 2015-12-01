@@ -5,6 +5,7 @@
 	"keywords": ["timezones", "timezone"],
 	"homepage": "https://github.com/amatz5/timezones",
 	"license": "MIT",
+	"versions" : ["dev-master", 1.0.3-dev"],
     "authors": [
         {
             "name": "Amatz",
