@@ -11,7 +11,7 @@ The Timezones Service Provider can be installed via [Composer](http://getcompose
 {
     "require": {
         "laravel/framework": "5.0.*",
-        "jomar/timezones": "~1.0"
+        "jomar/timezones": "dev-master"
     },
 }
 ```
