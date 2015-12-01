@@ -5,13 +5,13 @@ A simple [Laravel 5](http://www.laravel.com/) service provider for including the
 ## Installation
 
 The Timezones Service Provider can be installed via [Composer](http://getcomposer.org) by requiring the
-`jomar/timezones` package (required for Laravel 5) in your project's `composer.json`.
+`amatz5/timezones` package (required for Laravel 5) in your project's `composer.json`.
 
 ```json
 {
     "require": {
         "laravel/framework": "5.0.*",
-        "jomar/timezones": "dev-master"
+        "amatz5/timezones": "dev-master"
     },
 }
 ```
@@ -20,7 +20,7 @@ or
 
 Require this package with composer:
 ```
-composer require jomar/timezones
+composer require amatz5/timezones
 ```
 
 Update your packages with ```composer update``` or install with ```composer install```.
@@ -35,14 +35,14 @@ Find the `providers` key in `config/app.php` and register the Captcha Service Pr
 ```php
     'providers' => [
         // ...
-        'Jomar\Timezones\TimezonesServiceProvider',
+        'Amatz5\Timezones\TimezonesServiceProvider',
     ]
 ```
 for Laravel 5.1+
 ```php
     'providers' => [
         // ...
-        Jomar\Timezones\TimezonesServiceProvider::class,
+        Amatz5\Timezones\TimezonesServiceProvider::class,
     ]
 ```
 
@@ -51,13 +51,13 @@ Find the `aliases` key in `config/app.php`.
 ```php
     'aliases' => [
         // ...
-        'Timezones' => 'Jomar\Timezones\Facades\Timezones',
+        'Timezones' => 'Amatz5\Timezones\Facades\Timezones',
     ]
 ```
 for Laravel 5.1+
 ```php
     'aliases' => [
         // ...
-        'Timezones' => Jomar\Timezones\Facades\Timezones::class,
+        'Timezones' => Amatz5\Timezones\Facades\Timezones::class,
     ]
 ```

@@ -1,6 +1,6 @@
 <?php
 
-namespace Jomar\Timezones;
+namespace Amatz5\Timezones;
 
 use Illuminate\Support\ServiceProvider;
 

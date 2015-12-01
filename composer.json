@@ -1,5 +1,5 @@
 {
-    "name": "jomar/timezones",
+    "name": "amatz5/timezones",
 	"type": "package",
     "description": "Timezones for Laravel 5.1",
 	"keywords": ["timezones", "timezone"],
@@ -7,7 +7,7 @@
 	"license": "MIT",
     "authors": [
         {
-            "name": "Jomar",
+            "name": "Amatz",
             "email": "amatz5s0ya@gmail.com",
 			"homepage": "https://github.com/amatz5",
 			"role": "Developer"

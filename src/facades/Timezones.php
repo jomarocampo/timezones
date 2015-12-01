@@ -6,7 +6,7 @@
  * Time: 1:47 PM
  */
 
-namespace Jomar\Timezones\Facades;
+namespace Amatz5\Timezones\Facades;
 use Illuminate\Support\Facades\Facade;
 
 class Timezones extends Facade{

@@ -6,7 +6,7 @@
  * Time: 11:35 AM
  */
 
-namespace Jomar\Timezones;
+namespace Amatz5\Timezones;
 use Carbon\Carbon;
  
 class Timezones {
