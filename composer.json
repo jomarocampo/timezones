@@ -2,7 +2,7 @@
     "name": "jomar/timezones",
 	"type": "package",
     "description": "Timezones for Laravel 5.1",
-	"keywords": ["laravel5 timezones", "laravel5 time", "timezones","laravel5 timezone", "laravel5 date", "timezone"],
+	"keywords": ["laravel5 timezones", "laravel5 time", "timezone","laravel5 timezone", "laravel5 date"],
 	"homepage": "https://github.com/amatz5/timezones",
 	"license": "MIT",
     "authors": [
